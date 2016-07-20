@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+
+# dist directory
+dist/
+
+# Dependency directory
+node_modules/
+app/bower_components/
+
+#SASS
+.sass-cache
+
+#tmp
+.tmp
+

@@ -1,0 +1,20 @@
+<div class="welcome">
+
+  <div>
+    <b><div class="col-lg-2">Title</div>
+    <div class="col-lg-2">ISBN</div>
+    <div class="col-lg-2">Publish Year</div>
+    <div class="col-lg-2">Cover price</div>
+    <div class="col-lg-4">Check In. Check out Status</div></b>
+  </div>
+
+  <div ng-repeat="obj in vm.book">
+    <div class="col-lg-2">{{obj.Title}}</div>
+    <div class="col-lg-2">{{obj.ISBN}}</div>
+    <div class="col-lg-2">{{obj.Year}}</div>
+    <div class="col-lg-2">{{obj.Price}}</div>
+    <div class="col-lg-4">Not Available</div>
+  </div>
+
+</div>
+
